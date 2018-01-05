@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="content" method="upgrade">
+	<name>PLG_CONTENT_FEATUREDCONTENT</name>
+	<author>SPEDI srl</author>
+	<creationDate>Gennaio 2018</creationDate>
+  <copyright>Copyright (C) SPEDI srl</copyright>
+	<license>GNU/GPL license: http://www.gnu.org/copyleft/gpl.html</license>
+  <authorEmail>sviluppo@spedi.it</authorEmail>
+	<authorUrl>https://www.spedi.it</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_CONTENT_FEATUREDCONTENT_DESC</description>
+	<files>
+		<filename plugin="featuredcontent">featuredcontent.php</filename>
+		<folder>tmpl</folder>
+		<folder>language</folder>
+	</files>
+	<languages folder="language">
+		<language tag="it-IT">it-IT/it-IT.plg_content_featuredcontent.ini</language>
+		<language tag="it-IT">it-IT/it-IT.plg_content_featuredcontent.sys.ini</language>
+	</languages>
+</extension>
