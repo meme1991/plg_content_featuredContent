@@ -1,11 +1,11 @@
 <?php
-/**
- * @version    1.0.0
- * @package    SPEDI Featured Content
- * @author     SPEDI srl - http://www.spedi.it
- * @copyright  Copyright (c) Spedi srl.
- * @license    GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
- */
+# @Author: SPEDI srl
+# @Date:   30-01-2018
+# @Email:  sviluppo@spedi.it
+# @Last modified by:   SPEDI srl
+# @Last modified time: 30-01-2018
+# @License: GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
+# @Copyright: Copyright (c) SPEDI srl
 
 // no direct access
 defined('_JEXEC') or die('Restricted access');
