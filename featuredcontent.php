@@ -88,7 +88,11 @@ class plgContentFeaturedContent extends JPlugin {
 								COLORE
 				*************************/
 				if($values[0] == 'color') {
-					$param[$i]['color'] = $values[1];
+					$redhex   = hexdec(substr($values[1], 1, 2));
+					$greenhex = hexdec(substr($values[1], 3, 2));
+					$bluehex  = hexdec(substr($values[1], 5, 2));
+					$colorRGB = $redhex.','.$greenhex.','.$bluehex;
+					$param[$i]['color'] = $colorRGB;
 				}
 
 				/*************************

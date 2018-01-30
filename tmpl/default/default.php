@@ -12,8 +12,8 @@ defined('_JEXEC') or die('Restricted access');
 ?>
 <?php foreach($item['result'] as $link) : ?>
 	<div class="featured-content d-flex article-list mb-2">
-		<span class="d-flex justify-content-center align-items-center py-2 px-3" <?php if(isset($item['color'])) : ?> style="background-color: <?php echo $item['color'] ?>" <?php endif; ?>>
-			<i class="far fa-chevron-right" aria-hidden="true"></i>
+		<span class="d-flex justify-content-center align-items-center py-2 px-3" <?php if(isset($item['color'])) : ?> style="background-color:rgba(<?php echo $item['color'] ?>, .2); border-right-color:rgba(<?php echo $item['color'] ?>, 1)" <?php endif; ?>>
+			<i class="far fa-link" <?php if(isset($item['color'])) : ?> style="color: rgba(<?php echo $item['color'] ?>, 1)" <?php endif; ?>></i>
 		</span>
 		<a href="<?php echo JRoute::_(ContentHelperRoute::getArticleRoute($link->id, $link->catid)) ?>" title="<?php echo $link->title ?>" class="p-2">
 			<?php echo $link->title ?>
